@@ -1,0 +1,35 @@
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 150px;  }
+
+ 
+        .error {
+            color: red;
+        }
+
+        input[type="text"] , [type="password"] {
+            width: 300px;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+  
+        button[type="submit"] {
+            background-color: #0074D9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+   
+        p a {
+            color: #0074D9;
+            text-decoration: none;
+        }
+        
+

@@ -1,0 +1,38 @@
+<?php
+     include('server1.php');
+?>
+<!DOCTYPE html>
+<html>
+<head>
+      <title>login</title>
+      <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+       <h1>Welcome to our store!</h1>
+       <h2>Login</h2>
+       <form method="post" action="login.html">
+        <?php if (count($error) > 0): ?>
+
+<div class="error">
+<?php
+     foreach($error as $error1){
+         echo $error1;
+         echo"<br>";
+     }
+     ?>
+</div>
+
+<?php endif ?>
+              <div class="inp"><label>username</label>
+              <input type="text" name="un" required></div>
+
+              <div class="inp"><label>password</label>
+              <input type="password" name="psw1 required"></div>
+
+              <div class="inp">
+              <button type="submit" name="login" class="btn">sign in</button>
+              </div>
+<p>not yet a member?<a href="signup.html">sign up</a></p>
+</form>
+</body>
+</html>

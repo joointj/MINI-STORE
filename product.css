@@ -1,0 +1,71 @@
+body {
+    margin: 0 auto; /* Set left and right margins to auto */
+    max-width: 800px; /* Optional: Set a maximum width for the content */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+}
+
+table {
+    width: 100%; /* Make the table occupy the full width of its container */
+    border-collapse: collapse; /* Collapse the borders between cells */
+    margin: 20px auto; /* Center the table */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Add borders to table, th, and td elements */
+    padding: 8px; /* Add padding to cells */
+}
+
+th {
+    background-color: #f2f2f2; /* Set background color for table header */
+    font-weight: bold; /* Make the header text bold */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+td img {
+    display: block; /* Ensure images are displayed as blocks */
+    margin: 0 auto; /* Center images within their cells */
+}
+
+td a {
+    text-decoration: none; /* Remove underline from links */
+    color: blue; /* Set link color */
+}
+
+/* Style links on hover */
+td a:hover {
+    text-decoration: underline; /* Underline links on hover */
+    color: darkblue; /* Change link color on hover */
+}
+
+.custom-button {
+    display: block;
+    margin: 20px auto;
+    /*Centerthebutton*/background-color: #0074D9;
+    border: none;
+    color: white;
+    padding: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+/* Hover effect */
+.custom-button:hover {
+    background-color: #45a049;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
